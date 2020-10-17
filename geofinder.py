@@ -15,13 +15,13 @@ geocoder = OpenCageGeocode(key)
 # lng = results[0]['geometry']['lng']
 # print (lat, lng)
 
-matches = pd.read_csv('matches.csv', encoding='latin1')
+# matches = pd.read_csv('matches.csv', encoding='latin1')
 
-# create empty lists
+# # create empty lists
 list_lat = []   
 list_long = []
 	
-for index, row in matches.iterrows(): # iterate over rows in dataframe
+# for index, row in matches.iterrows(): # iterate over rows in dataframe
 
     City = row['City'].strip()
     State = row['Host Country']
@@ -40,6 +40,6 @@ print(list_lat)
 print(list_long)
 # create new columns from lists    
 
-# matches['latitude'] = list_lat   
+matches['latitude'] = list_lat   
 
-# matches['longitude'] = list_long
+matches['longitude'] = list_long
