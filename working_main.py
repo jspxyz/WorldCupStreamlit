@@ -159,11 +159,18 @@ def Hosttop3Func(x):
     return 0
 winners['Hosttop3'] = winners[['Country', 'Winner', 'Runners-Up', 'Third']].apply(Hosttop3Func, axis = 1)
 
+#-------------------------------------------------
+##### Start of Streamlit code
+
 st.title('World Cup Analysis | October 2020')
+st.header('Data from 1930 - 2014')
 st.header('by Rosy, Jun, James')
 
-# tracking attendance growth by year
-st.subheader('Attendace by Year')
+st.subheader('Can Attendance impact the number of goals scored?')
+st.write('Last week, we mentioned there could be a correlation between goals scored and attendance. To briefly review, we noticed there was an obvious uptick in attendance over the years.')
+
+# tracking attendance by year
+st.subheader('Attendance by Year')
 Year = winners['Year'].tolist()
 Attendance = winners['Attendance'].tolist()
 
@@ -179,8 +186,11 @@ plt.grid(linestyle='--')
 
 st.pyplot(fig)
 
-# finding attendance and goals by year
-st.subheader('Attendance to Goals by Year')
+# attendance and goals by year
+st.write('''Below we see the chart displayed last week showing a strong correlation 
+between Attendance and Goals. Whoa! Could it be that the more fans there are, 
+the more players want to score?''')
+
 # Total of attendance and goals by year
 summatches = matches.groupby('Year').sum()
 attendance = summatches['Attendance']
@@ -194,18 +204,70 @@ plt.ylabel('Goals')
 plt.title('Attendance & Goals Correlation')
 st.pyplot(fig)
 
+# matches and goals by year
+st.write('''No, no. Do not let anyone tell you that audience can impact a game by that match. 
+Simply changing the attendance variable with the number of matches shows a very similar correlation. 
+Very obvious now that the number of goals scored in a World Cup is obviously driven mainly by the 
+number of matches played per tournament.''')
+summatches = matches.groupby('Year').sum()
+countmatches = matches.groupby('Year').count()
+# attendance = summatches['Attendance']
+matchcount = countmatches['MatchID']
+goals = summatches['GoalsTotal']
 
-# map_data = pd.DataFrame(
-#     np.random.randn(1000, 2) / [50, 50] + [37.76, -122.4],
-#     columns=['lat', 'lon'])
+fig = plt.figure(figsize=(4, 4))
+plt.scatter(matchcount, goals)
+plt.xlabel('Match Count')
+# plt.xlim(0,)
+plt.ylabel('Goals')
+plt.title('Matches & Goals Correlation')
+st.pyplot(fig)
 
-# st.map(map_data)
 
-# st.subheader('example slider using airbnb price range')
-# slide = st.slider('Choose your minimum price:', 1, 1000, 30)
-# entire_bnb = df[(df['room_type'] == 'Entire home/apg:') &
-#                 (df['price'] > int(slide))][['latitude', 'longitude']]
-# st.map(entire_bnb)
+# Top 20 matches with highest attendence
+st.write('However, looking into the Top 20 matches, may tell us why Attendance may have some relationship with a country.')
+def game_info(input):
+    team1 = input[0]
+    team2 = input[1]
+    year = input[2]
+    winner = input[3]
+    host = input[4]
+    return f'Host: {host} | {year}: {team1} vs {team2} ({winner})'
+
+matches_trunk = matches[['Year', 'City', 'Attendance', 'Home Team Name', 'Away Team Name', 'WinningTeam', 'Host Country']]
+matches_trunk['Competition'] = matches_trunk[['Home Team Name', 'Away Team Name', 'Year', 'WinningTeam', 'Host Country']].apply(game_info, axis = 1)
+matches_trunk_10 = matches_trunk.sort_values(by='Attendance', ascending= False)
+matches_trunk_10 = matches_trunk_10[['Attendance', 'Competition']].head(20)
+
+# Visualization of Top 10 Matches of Attendance
+fig, ax = plt.subplots(figsize=(12, 10))
+ax.barh(matches_trunk_10['Competition'], matches_trunk_10['Attendance'])
+plt.xlabel('Attendance')
+plt.title('Top 20 matches with highest Attendance')
+st.pyplot(fig)
+
+st.write('''Notice anything? If you are guessing that any game with Brazil has a high attendance, 
+you are close. What we are seeing is that Attendance is extremely high for matches when the Host 
+country also happens to be playing in that match.
+Yes, this also seems to be pretty obvious. This is our first time doing this. Give us a break.
+And enjoy the little geoslider below to see where all the World Cup matches have been played!''')
+
+# geo slider map of all matches played
+# slider by attendance
+st.subheader('World Cup Matches by Attendance | Worldview')
+slide = st.slider('Choose your attendance size:', 1000, 150000, 15000)
+matches_by_attendance = matches[(matches['Attendance'] > int(slide))][['latitude', 'longitude']]
+st.map(matches_by_attendance)
+
+# geo slider map of all matches played
+# slider by goal
+st.subheader('World Cup Matches by Goals')
+slide = st.slider('Choose your Number of Goals:', 0, 15, 1)
+matches_by_goals = matches[(matches['GoalsTotal'] > int(slide))][['latitude', 'longitude']]
+st.map(matches_by_goals)
+
+#-----------------------------#
+# excess examle code
 
 # st.subheader('Price by neighborhood example')
 # st.selectbox('Select an area', ('Brooklyn','Manhattan', 'Queens', 'Bronx', 'Staten Island'))
@@ -213,7 +275,7 @@ st.pyplot(fig)
 # price_house_type = df[df['neighborhood_group'] ==
 #                     str(user_area)].groupby('room_type').mean()['price']
 # st.dataframe(price_house_type)
-
+#
 # df = pd.DataFrame(
 #     {'City': ['Buenos Aires', 'Brasilia', 'Santiago', 'Bogota', 'Caracas'],
 #      'Country': ['Argentina', 'Brazil', 'Chile', 'Colombia', 'Venezuela'],
@@ -227,6 +289,3 @@ st.pyplot(fig)
 #     color='white', edgecolor='black')
 # gdf.plot(ax=ax, color='red')
 # st.pyplot()
-
-df = matches
-st.map(df)
