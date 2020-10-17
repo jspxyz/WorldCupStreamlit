@@ -102,15 +102,15 @@ Year,Datetime,Stage,Stadium,City,Host Country,Home Team Name,Home Team Goals,Awa
 1954,04 Jul 1954 - 17:00,Final,Wankdorf Stadium,Berne ,Switzerland,Germany FR,3,2,Hungary, ,62500,2,2,LING William (ENG),ORLANDINI Vincenzo (ITA),GRIFFITHS Benjamin (WAL),3484,1278,FRG,HUN
 1958,08 Jun 1958 - 14:00,Group 3,Rasunda Stadium,Solna ,Sweden,Sweden,3,0,Mexico, ,34107,1,0,LATYCHEV Nikolaj (URS),MOWAT Jack (SCO),ERIKSSON Arne (FIN),220,1415,SWE,MEX
 1958,08 Jun 1958 - 19:00,Group 4,Nya Ullevi,Gothenburg ,Sweden,Soviet Union,2,2,England, ,49348,1,0,ZSOLT Istvan (HUN),NILSEN Birger (NOR),JORGENSEN Carl Frederik (DEN),220,1372,URS,ENG
-1958,08 Jun 1958 - 19:00,Group 1,Malmo Stadion,Malm� ,Sweden,Argentina,1,3,Germany FR, ,31156,1,2,LEAFE Reginald (ENG),HELGE Leo (DEN),AHLNER Sten (SWE),220,1323,ARG,FRG
+1958,08 Jun 1958 - 19:00,Group 1,Malmo Stadion,Malmö,Sweden,Argentina,1,3,Germany FR, ,31156,1,2,LEAFE Reginald (ENG),HELGE Leo (DEN),AHLNER Sten (SWE),220,1323,ARG,FRG
 1958,08 Jun 1958 - 19:00,Group 3,Jarnvallen,Sandviken ,Sweden,Hungary,1,1,Wales, ,15343,1,1,CODESAL Jose Maria (URU),LEMESIC Leo (YUG),VAN NUFFEL Lucien (BEL),220,1407,HUN,WAL
-1958,08 Jun 1958 - 19:00,Group 2,Idrottsparken,Norrk�Ping ,Sweden,France,7,3,Paraguay, ,16518,2,2,GARDEAZABAL Juan (ESP),GRIFFITHS Benjamin (WAL),BROZZI Juan (ARG),220,1386,FRA,PAR
+1958,08 Jun 1958 - 19:00,Group 2,Idrottsparken,Norrköping,Sweden,France,7,3,Paraguay, ,16518,2,2,GARDEAZABAL Juan (ESP),GRIFFITHS Benjamin (WAL),BROZZI Juan (ARG),220,1386,FRA,PAR
 1958,08 Jun 1958 - 19:00,Group 2,Arosvallen,Vasteras ,Sweden,Yugoslavia,1,1,Scotland, ,9591,1,0,WYSSLING Paul (SUI),ORLANDINI Vincenzo (ITA),MACKO Martin (TCH),220,1434,YUG,SCO
 1958,08 Jun 1958 - 19:00,Group 4,Rimnersvallen,Udevalla ,Sweden,Brazil,3,0,Austria, ,17788,1,0,GUIGUE Maurice (FRA),DUSCH Albert (GER),BRONKHORST Jan (NED),220,1326,BRA,AUT
 1958,08 Jun 1958 - 19:00,Group 1,Orjans Vall,Halmstad ,Sweden,Northern Ireland,1,0,Czechoslovakia, ,10647,1,0,SEIPELT Fritz (AUT),ELLIS Arthur (ENG),FERNANDES CAMPOS Joaquim (POR),220,1421,NIR,TCH
 1958,11 Jun 1958 - 19:00,Group 4,Nya Ullevi,Gothenburg ,Sweden,Brazil,0,0,England, ,40895,0,0,DUSCH Albert (GER),LOEOEW Bertil (SWE),ZSOLT Istvan (HUN),220,1339,BRA,ENG
 1958,11 Jun 1958 - 19:00,Group 3,Rasunda Stadium,Solna ,Sweden,Mexico,1,1,Wales, ,15150,0,1,LEMESIC Leo (YUG),LATYCHEV Nikolaj (URS),CODESAL Jose Maria (URU),220,1418,MEX,WAL
-1958,11 Jun 1958 - 19:00,Group 2,Idrottsparken,Norrk�Ping ,Sweden,Paraguay,3,2,Scotland, ,11665,2,1,ORLANDINI Vincenzo (ITA),GARDEAZABAL Juan (ESP),ANDREN Bengt (SWE),220,1423,PAR,SCO
+1958,11 Jun 1958 - 19:00,Group 2,Idrottsparken,Norrköping,Sweden,Paraguay,3,2,Scotland, ,11665,2,1,ORLANDINI Vincenzo (ITA),GARDEAZABAL Juan (ESP),ANDREN Bengt (SWE),220,1423,PAR,SCO
 1958,11 Jun 1958 - 19:00,Group 2,Arosvallen,Vasteras ,Sweden,Yugoslavia,3,2,France, ,12217,1,1,GRIFFITHS Benjamin (WAL),WYSSLING Paul (SUI),DRAGVOLL Georg (NOR),220,1388,YUG,FRA
 1958,11 Jun 1958 - 19:00,Group 4,Ryavallen,Boras ,Sweden,Soviet Union,2,0,Austria, ,21239,1,0,JORGENSEN Carl Frederik (DEN),NILSEN Birger (NOR),ACKEBORN Gosta (SWE),220,1332,URS,AUT
 1958,11 Jun 1958 - 19:00,Group 1,Olympia Stadium,Helsingborg ,Sweden,Germany FR,2,2,Czechoslovakia, ,25000,0,2,ELLIS Arthur (ENG),LEAFE Reginald (ENG),SEIPELT Fritz (AUT),220,1391,FRG,TCH
@@ -125,12 +125,12 @@ Year,Datetime,Stage,Stadium,City,Host Country,Home Team Name,Home Team Goals,Awa
 1958,15 Jun 1958 - 19:00,Group 4,Ryavallen,Boras ,Sweden,England,2,2,Austria, ,15872,0,1,BRONKHORST Jan (NED),DUSCH Albert (GER),ZSOLT Istvan (HUN),220,1327,ENG,AUT
 1958,15 Jun 1958 - 19:00,Group 1,Olympia Stadium,Helsingborg ,Sweden,Czechoslovakia,6,1,Argentina, ,16418,3,0,ELLIS Arthur (ENG),LEAFE Reginald (ENG),SEIPELT Fritz (AUT),220,1325,TCH,ARG
 1958,17 Jun 1958 - 19:00,Group 4,Nya Ullevi,Gothenburg ,Sweden,Soviet Union,1,0,England, ,23182,0,0,DUSCH Albert (GER),BRONKHORST Jan (NED),SEIPELT Fritz (AUT),220,1373,URS,ENG
-1958,17 Jun 1958 - 19:00,Group 1,Malmo Stadion,Malm� ,Sweden,Northern Ireland,2,1,Czechoslovakia,Northern Ireland win after extra time ,6196,0,0,GUIGUE Maurice (FRA),FERNANDES CAMPOS Joaquim (POR),AHLNER Sten (SWE),220,1422,NIR,TCH
+1958,17 Jun 1958 - 19:00,Group 1,Malmo Stadion,Malmö,Sweden,Northern Ireland,2,1,Czechoslovakia,Northern Ireland win after extra time ,6196,0,0,GUIGUE Maurice (FRA),FERNANDES CAMPOS Joaquim (POR),AHLNER Sten (SWE),220,1422,NIR,TCH
 1958,17 Jun 1958 - 19:00,Group 3,Rasunda Stadium,Solna ,Sweden,Wales,2,1,Hungary, ,2823,0,1,LATYCHEV Nikolaj (URS),CODESAL Jose Maria (URU),ERIKSSON Arne (FIN),220,1408,WAL,HUN
 1958,19 Jun 1958 - 19:00,Quarter-finals,Nya Ullevi,Gothenburg ,Sweden,Brazil,1,0,Wales, ,25923,0,0,SEIPELT Fritz (AUT),GUIGUE Maurice (FRA),DUSCH Albert (GER),221,1345,BRA,WAL
-1958,19 Jun 1958 - 19:00,Quarter-finals,Malmo Stadion,Malm� ,Sweden,Germany FR,1,0,Yugoslavia, ,20055,1,0,WYSSLING Paul (SUI),FERNANDES CAMPOS Joaquim (POR),HELGE Leo (DEN),221,1392,FRG,YUG
+1958,19 Jun 1958 - 19:00,Quarter-finals,Malmo Stadion,Malmö,Sweden,Germany FR,1,0,Yugoslavia, ,20055,1,0,WYSSLING Paul (SUI),FERNANDES CAMPOS Joaquim (POR),HELGE Leo (DEN),221,1392,FRG,YUG
 1958,19 Jun 1958 - 19:00,Quarter-finals,Rasunda Stadium,Solna ,Sweden,Sweden,2,0,Soviet Union, ,31900,0,0,LEAFE Reginald (ENG),BROZZI Juan (ARG),DRAGVOLL Georg (NOR),221,1437,SWE,URS
-1958,19 Jun 1958 - 19:00,Quarter-finals,Idrottsparken,Norrk�Ping ,Sweden,France,4,0,Northern Ireland, ,11800,1,0,GARDEAZABAL Juan (ESP),LATYCHEV Nikolaj (URS),ANDREN Bengt (SWE),221,1385,FRA,NIR
+1958,19 Jun 1958 - 19:00,Quarter-finals,Idrottsparken,Norrköping,Sweden,France,4,0,Northern Ireland, ,11800,1,0,GARDEAZABAL Juan (ESP),LATYCHEV Nikolaj (URS),ANDREN Bengt (SWE),221,1385,FRA,NIR
 1958,24 Jun 1958 - 19:00,Semi-finals,Nya Ullevi,Gothenburg ,Sweden,Sweden,3,1,Germany FR, ,49471,1,1,ZSOLT Istvan (HUN),SEIPELT Fritz (AUT),ELLIS Arthur (ENG),488,1390,SWE,FRG
 1958,24 Jun 1958 - 19:00,Semi-finals,Rasunda Stadium,Solna ,Sweden,Brazil,5,2,France, ,27100,2,1,GRIFFITHS Benjamin (WAL),WYSSLING Paul (SUI),LEAFE Reginald (ENG),488,1340,BRA,FRA
 1958,28 Jun 1958 - 17:00,Match for third place,Nya Ullevi,Gothenburg ,Sweden,France,6,3,Germany FR, ,32483,3,1,BROZZI Juan (ARG),ELLIS Arthur (ENG),LUNDELL Bengt (SWE),3483,1382,FRA,FRG
@@ -231,42 +231,42 @@ Year,Datetime,Stage,Stadium,City,Host Country,Home Team Name,Home Team Goals,Awa
 1970,17 June 1970 - 16:00,Semi-finals,Estadio Azteca,Mexico City ,Mexico,Italy,4,3,Germany FR,Italy win after extra time ,102444,0,0,YAMASAKI MALDONADO Arturo (MEX),HORMAZABAL DIAZ Rafael (CHI),VELASQUEZ Guillermo (COL),569,1838,ITA,FRG
 1970,20 Jun 1970 - 16:00,Match for third place,Estadio Azteca,Mexico City ,Mexico,Germany FR,1,0,Uruguay, ,104403,1,0,SBARDELLA Antonio (ITA),MARSCHALL Ferdinand (AUT),AGUILAR ELIZALDE Abel (MEX),3477,1843,FRG,URU
 1970,21 Jun 1970 - 12:00,Final,Estadio Azteca,Mexico City ,Mexico,Brazil,4,1,Italy, ,107412,1,1,GLOECKNER Rudolf (GDR),SCHEURER Ruedi (SUI),COEREZZA Norberto Angel (ARG),3476,1765,BRA,ITA
-1974,13 Jun 1974 - 17:00,Group 2,Waldstadion,Frankfurt/Main ,Germany,Brazil,0,0,Yugoslavia, ,62000,0,0,SCHEURER Ruedi (SUI),LORAUX Vital (BEL),PESTARINO Luis (ARG),262,1986,BRA,YUG
+1974,13 Jun 1974 - 17:00,Group 2,Waldstadion,Frankfurt,Germany,Brazil,0,0,Yugoslavia, ,62000,0,0,SCHEURER Ruedi (SUI),LORAUX Vital (BEL),PESTARINO Luis (ARG),262,1986,BRA,YUG
 1974,14 Jun 1974 - 16:00,Group 1,Olympiastadion,Berlin West ,Germany,Germany FR,1,0,Chile, ,81100,1,0,BABACAN Dogan (TUR),TAYLOR John (ENG),WINSEMANN Werner (CAN),262,2003,FRG,CHI
 1974,14 Jun 1974 - 19:30,Group 1,Volksparkstadion,Hamburg ,Germany,German DR,2,0,Australia, ,17000,0,0,NDIAYE Youssou (SEN),SANCHEZ IBANEZ Pablo (ESP),DELGADO Omar (COL),262,1955,GDR,AUS
 1974,14 Jun 1974 - 19:30,Group 2,Westfalenstadion,Dortmund ,Germany,Zaire,0,2,Scotland, ,27000,0,2,SCHULENBURG Gerhard (GER),BOSKOVIC Tony (AUS),WEYLAND Hans Joachim (FRG),262,2176,ZAI,SCO
 1974,15 Jun 1974 - 16:00,Group 3,Niedersachsenstadion,Hanover ,Germany,Uruguay,0,2,Netherlands, ,55100,0,1,PALOTAI Karoly (HUN),KAZAKOV Pavel (URS),RAINEA Nicolae (ROU),262,2098,URU,NED
-1974,15 Jun 1974 - 16:00,Group 3,Rheinstadion,D�Sseldorf ,Germany,Sweden,0,0,Bulgaria, ,23800,0,0,PEREZ NUNEZ Edison A. (PER),GONZALEZ ARCHUNDIA Alfonso (MEX),SUPPIAH George (SIN),262,1995,SWE,BUL
+1974,15 Jun 1974 - 16:00,Group 3,Rheinstadion,Düsseldorf,Germany,Sweden,0,0,Bulgaria, ,23800,0,0,PEREZ NUNEZ Edison A. (PER),GONZALEZ ARCHUNDIA Alfonso (MEX),SUPPIAH George (SIN),262,1995,SWE,BUL
 1974,15 Jun 1974 - 18:00,Group 4,Olympiastadion,Munich ,Germany,Italy,3,1,Haiti, ,53000,0,0,LLOBREGAT Vicente (VEN),NAMDAR Jafar (IRN),MARQUES Armando (BRA),262,2083,ITA,HAI
 1974,15 Jun 1974 - 18:00,Group 4,Neckarstadion,Stuttgart ,Germany,Poland,3,2,Argentina, ,32700,2,0,THOMAS Clive (WAL),ALDINGER Heinz (GER),DAVIDSON Bob (SCO),262,1952,POL,ARG
 1974,18 Jun 1974 - 16:00,Group 1,Volksparkstadion,Hamburg ,Germany,Australia,0,3,Germany FR, ,53300,0,2,KAMEL Mahmoud (EGY),GONZALEZ ARCHUNDIA Alfonso (MEX),PEREZ NUNEZ Edison A. (PER),262,1954,AUS,FRG
-1974,18 Jun 1974 - 19:30,Group 2,Waldstadion,Frankfurt/Main ,Germany,Scotland,0,0,Brazil, ,62000,0,0,VAN GEMERT Arie (NED),PALOTAI Karoly (HUN),LINEMAYR Erich (AUT),262,1985,SCO,BRA
+1974,18 Jun 1974 - 19:30,Group 2,Waldstadion,Frankfurt,Germany,Scotland,0,0,Brazil, ,62000,0,0,VAN GEMERT Arie (NED),PALOTAI Karoly (HUN),LINEMAYR Erich (AUT),262,1985,SCO,BRA
 1974,18 Jun 1974 - 19:30,Group 1,Olympiastadion,Berlin West ,Germany,Chile,1,1,German DR, ,28300,0,0,ANGONESE Aurelio (ITA),SCHEURER Ruedi (SUI),DAVIDSON Bob (SCO),262,2004,CHI,GDR
 1974,18 Jun 1974 - 19:30,Group 2,Parkstadion,Gelsenkirchen ,Germany,Yugoslavia,9,0,Zaire, ,31700,6,0,DELGADO Omar (COL),LLOBREGAT Vicente (VEN),BARRETO RUIZ Ramon (URU),262,2186,YUG,ZAI
 1974,19 Jun 1974 - 19:30,Group 3,Westfalenstadion,Dortmund ,Germany,Netherlands,0,0,Sweden, ,53700,0,0,WINSEMANN Werner (CAN),TSCHENSCHER Kurt (GER),THOMAS Clive (WAL),262,2097,NED,SWE
 1974,19 Jun 1974 - 19:30,Group 3,Niedersachsenstadion,Hanover ,Germany,Bulgaria,1,1,Uruguay, ,13400,0,0,TAYLOR John (ENG),BABACAN Dogan (TUR),OHMSEN Klaus (GER),262,1996,BUL,URU
 1974,19 Jun 1974 - 19:30,Group 4,Olympiastadion,Munich ,Germany,Haiti,0,7,Poland, ,25300,0,5,SUPPIAH George (SIN),BIWERSI Ferdinand (GER),ESCHWEILER Walter (GER),262,2085,HAI,POL
 1974,19 Jun 1974 - 19:30,Group 4,Neckarstadion,Stuttgart ,Germany,Argentina,1,1,Italy, ,70100,1,1,KAZAKOV Pavel (URS),GLOECKNER Rudolf (GDR),RAINEA Nicolae (ROU),262,1949,ARG,ITA
-1974,22 Jun 1974 - 16:00,Group 2,Waldstadion,Frankfurt/Main ,Germany,Scotland,1,1,Yugoslavia, ,56000,0,0,GONZALEZ ARCHUNDIA Alfonso (MEX),GLOECKNER Rudolf (GDR),TSCHENSCHER Kurt (GER),262,2175,SCO,YUG
+1974,22 Jun 1974 - 16:00,Group 2,Waldstadion,Frankfurt,Germany,Scotland,1,1,Yugoslavia, ,56000,0,0,GONZALEZ ARCHUNDIA Alfonso (MEX),GLOECKNER Rudolf (GDR),TSCHENSCHER Kurt (GER),262,2175,SCO,YUG
 1974,22 Jun 1974 - 16:00,Group 1,Olympiastadion,Berlin West ,Germany,Australia,0,0,Chile, ,17400,0,0,NAMDAR Jafar (IRN),LORAUX Vital (BEL),VAN GEMERT Arie (NED),262,1953,AUS,CHI
 1974,22 Jun 1974 - 16:00,Group 2,Parkstadion,Gelsenkirchen ,Germany,Zaire,0,3,Brazil, ,36200,0,1,RAINEA Nicolae (ROU),ANGONESE Aurelio (ITA),OHMSEN Klaus (GER),262,1987,ZAI,BRA
 1974,22 June 1974 - 19:30,Group 1,Volksparkstadion,Hamburg ,Germany,German DR,1,0,Germany FR, ,60200,0,0,BARRETO RUIZ Ramon (URU),MARQUES Armando (BRA),PESTARINO Luis (ARG),262,2062,GDR,FRG
 1974,23 Jun 1974 - 16:00,Group 3,Westfalenstadion,Dortmund ,Germany,Bulgaria,1,4,Netherlands, ,53300,0,2,BOSKOVIC Tony (AUS),BIWERSI Ferdinand (GER),ESCHWEILER Walter (GER),262,1990,BUL,NED
 1974,23 Jun 1974 - 16:00,Group 4,Olympiastadion,Munich ,Germany,Argentina,4,1,Haiti, ,25900,2,0,SANCHEZ IBANEZ Pablo (ESP),KAMEL Mahmoud (EGY),NDIAYE Birame (SEN),262,1947,ARG,HAI
-1974,23 Jun 1974 - 16:00,Group 3,Rheinstadion,D�Sseldorf ,Germany,Sweden,3,0,Uruguay, ,28300,0,0,LINEMAYR Erich (AUT),LLOBREGAT Vicente (VEN),ALDINGER Heinz (GER),262,2181,SWE,URU
+1974,23 Jun 1974 - 16:00,Group 3,Rheinstadion,Düsseldorf,Germany,Sweden,3,0,Uruguay, ,28300,0,0,LINEMAYR Erich (AUT),LLOBREGAT Vicente (VEN),ALDINGER Heinz (GER),262,2181,SWE,URU
 1974,23 Jun 1974 - 16:00,Group 4,Neckarstadion,Stuttgart ,Germany,Poland,2,1,Italy, ,70100,2,0,WEYLAND Hans Joachim (FRG),WINSEMANN Werner (CAN),SCHULENBURG Gerhard (GER),262,2129,POL,ITA
-1974,26 Jun 1974 - 16:00,Group B,Rheinstadion,D�Sseldorf ,Germany,Yugoslavia,0,2,Germany FR, ,67385,0,1,MARQUES Armando (BRA),ANGONESE Aurelio (ITA),PEREZ NUNEZ Edison A. (PER),263,2066,YUG,FRG
+1974,26 Jun 1974 - 16:00,Group B,Rheinstadion,Düsseldorf,Germany,Yugoslavia,0,2,Germany FR, ,67385,0,1,MARQUES Armando (BRA),ANGONESE Aurelio (ITA),PEREZ NUNEZ Edison A. (PER),263,2066,YUG,FRG
 1974,26 Jun 1974 - 19:30,Group A,Niedersachsenstadion,Hanover ,Germany,Brazil,1,0,German DR, ,59863,0,0,THOMAS Clive (WAL),BABACAN Dogan (TUR),BOSKOVIC Tony (AUS),263,1982,BRA,GDR
 1974,26 Jun 1974 - 19:30,Group A,Parkstadion,Gelsenkirchen ,Germany,Netherlands,4,0,Argentina, ,56548,2,0,DAVIDSON Bob (SCO),TSCHENSCHER Kurt (GER),KAZAKOV Pavel (URS),263,1948,NED,ARG
 1974,26 Jun 1974 - 19:30,Group B,Neckarstadion,Stuttgart ,Germany,Sweden,0,1,Poland, ,44955,0,1,BARRETO RUIZ Ramon (URU),GONZALEZ ARCHUNDIA Alfonso (MEX),PESTARINO Luis (ARG),263,2167,SWE,POL
 1974,30 Jun 1974 - 16:00,Group A,Niedersachsenstadion,Hanover ,Germany,Argentina,1,2,Brazil, ,39400,1,1,LORAUX Vital (BEL),NDIAYE Birame (SEN),TAYLOR John (ENG),263,1945,ARG,BRA
-1974,30 Jun 1974 - 16:00,Group B,Waldstadion,Frankfurt/Main ,Germany,Poland,2,1,Yugoslavia, ,58000,1,1,GLOECKNER Rudolf (GDR),MARQUES Armando (BRA),WINSEMANN Werner (CAN),263,2170,POL,YUG
+1974,30 Jun 1974 - 16:00,Group B,Waldstadion,Frankfurt,Germany,Poland,2,1,Yugoslavia, ,58000,1,1,GLOECKNER Rudolf (GDR),MARQUES Armando (BRA),WINSEMANN Werner (CAN),263,2170,POL,YUG
 1974,30 Jun 1974 - 16:00,Group A,Parkstadion,Gelsenkirchen ,Germany,German DR,0,2,Netherlands, ,68348,0,1,SCHEURER Ruedi (SUI),LINEMAYR Erich (AUT),DELGADO Omar (COL),263,2067,GDR,NED
-1974,30 Jun 1974 - 19:30,Group B,Rheinstadion,D�Sseldorf ,Germany,Germany FR,4,2,Sweden, ,67800,0,1,KAZAKOV Pavel (URS),RAINEA Nicolae (ROU),SANCHEZ IBANEZ Pablo (ESP),263,2065,FRG,SWE
-1974,03 Jul 1974 - 17:00,Group B,Waldstadion,Frankfurt/Main ,Germany,Poland,0,1,Germany FR, ,62000,0,0,LINEMAYR Erich (AUT),PALOTAI Karoly (HUN),SCHEURER Ruedi (SUI),263,2064,POL,FRG
+1974,30 Jun 1974 - 19:30,Group B,Rheinstadion,Düsseldorf,Germany,Germany FR,4,2,Sweden, ,67800,0,1,KAZAKOV Pavel (URS),RAINEA Nicolae (ROU),SANCHEZ IBANEZ Pablo (ESP),263,2065,FRG,SWE
+1974,03 Jul 1974 - 17:00,Group B,Waldstadion,Frankfurt,Germany,Poland,0,1,Germany FR, ,62000,0,0,LINEMAYR Erich (AUT),PALOTAI Karoly (HUN),SCHEURER Ruedi (SUI),263,2064,POL,FRG
 1974,03 Jul 1974 - 19:30,Group A,Westfalenstadion,Dortmund ,Germany,Netherlands,2,0,Brazil, ,53700,0,0,TSCHENSCHER Kurt (GER),DAVIDSON Bob (SCO),SUPPIAH George (SIN),263,1983,NED,BRA
 1974,03 Jul 1974 - 19:30,Group A,Parkstadion,Gelsenkirchen ,Germany,Argentina,1,1,German DR, ,54254,1,1,TAYLOR John (ENG),KAMEL Mahmoud (EGY),THOMAS Clive (WAL),263,1946,ARG,GDR
-1974,03 Jul 1974 - 19:30,Group B,Rheinstadion,D�Sseldorf ,Germany,Sweden,2,1,Yugoslavia, ,41300,1,1,PESTARINO Luis (ARG),BARRETO RUIZ Ramon (URU),LLOBREGAT Vicente (VEN),263,2182,SWE,YUG
+1974,03 Jul 1974 - 19:30,Group B,Rheinstadion,Düsseldorf,Germany,Sweden,2,1,Yugoslavia, ,41300,1,1,PESTARINO Luis (ARG),BARRETO RUIZ Ramon (URU),LLOBREGAT Vicente (VEN),263,2182,SWE,YUG
 1974,06 Jul 1974 - 16:00,Match for third place,Olympiastadion,Munich ,Germany,Brazil,0,1,Poland, ,77100,0,0,ANGONESE Aurelio (ITA),NAMDAR Jafar (IRN),NDIAYE Birame (SEN),264,1984,BRA,POL
 1974,07 July 1974 - 16:00,Final,Olympiastadion,Munich ,Germany,Netherlands,1,2,Germany FR, ,78200,1,2,TAYLOR John (ENG),GONZALEZ ARCHUNDIA Alfonso (MEX),BARRETO RUIZ Ramon (URU),605,2063,NED,FRG
 1978,01 Jun 1978 - 15:00,Group 2,El Monumental - Estadio Monumental Antonio Vespuci,Buenos Aires ,Argentina,Germany FR,0,0,Poland, ,67579,0,0,COEREZZA Norberto Angel (ARG),ITHURRALDE Arturo Andres (ARG),COMESANA Miguel (ARG),278,2351,FRG,POL
@@ -310,7 +310,7 @@ Year,Datetime,Stage,Stadium,City,Host Country,Home Team Name,Home Team Goals,Awa
 1982,13 Jun 1982 - 20:00,Group 3,Camp Nou,Barcelona ,Spain,Argentina,0,1,Belgium, ,95000,0,0,CHRISTOV Vojtech (TCH),PALOTAI Karoly (HUN),JARGUZ Alojzy (POL),293,749,ARG,BEL
 1982,14 Jun 1982 - 17:15,Group 1,Estadio Municipal de Bala�dos,Vigo ,Spain,Italy,0,0,Poland, ,33000,0,0,VAUTROT Michel (FRA),PROKOP Adolf (GDR),RAINEA Nicolae (ROU),293,995,ITA,POL
 1982,14 Jun 1982 - 21:00,Group 6,Ramon Sanchez Pizjuan,Seville ,Spain,Brazil,2,1,Soviet Union, ,68000,0,1,LAMO CASTILLO Augusto (ESP),SANCHEZ ARMINIO Victoriano (ESP),GARCIA CARRION Jose L. (ESP),293,791,BRA,URS
-1982,15 Jun 1982 - 17:15,Group 1,Riazor,La Coru�A ,Spain,Peru,0,0,Cameroon, ,11000,0,0,WOEHRER Franz (AUT),RAINEA Nicolae (ROU),PROKOP Adolf (GDR),293,833,PER,CMR
+1982,15 Jun 1982 - 17:15,Group 1,Riazor,A Coruña,Spain,Peru,0,0,Cameroon, ,11000,0,0,WOEHRER Franz (AUT),RAINEA Nicolae (ROU),PROKOP Adolf (GDR),293,833,PER,CMR
 1982,15 Jun 1982 - 21:00,Group 3,Nuevo Estadio,Elche ,Spain,Hungary,10,1,El Salvador, ,23000,3,0,AL DOY Ebrahim (BHR),CORVER Charles (NED),LUND-SORENSEN Henning (DEN),293,896,HUN,SLV
 1982,15 Jun 1982 - 21:00,Group 6,La Rosaleda,Malaga ,Spain,Scotland,5,2,New Zealand, ,36000,3,0,SOCHA David (USA),CHAN Thomson Tam Sun (HKG),EL GHOUL Yusef Mohamed (LBY),293,1051,SCO,NZL
 1982,16 Jun 1982 - 17:15,Group 2,El Molinon,Gijon ,Spain,Germany FR,1,2,Algeria, ,42000,0,0,LABO REVOREDO Enrique (PER),ARISTIZABAL MURCIA Gilberto (COL),CASARIN Paolo (ITA),293,741,FRG,ALG
@@ -322,7 +322,7 @@ Year,Datetime,Stage,Stadium,City,Host Country,Home Team Name,Home Team Goals,Awa
 1982,18 Jun 1982 - 17:15,Group 1,Estadio Municipal de Bala�dos,Vigo ,Spain,Italy,1,1,Peru, ,25000,1,0,ESCHWEILER Walter (GER),RUBIO VAZQUEZ Mario (MEX),KLEIN Abraham (ISR),293,994,ITA,PER
 1982,18 Jun 1982 - 21:00,Group 3,Jose Rico Perez,Alicante ,Spain,Argentina,4,1,Hungary, ,32093,2,0,LACARNE Belaid (ALG),VAUTROT Michel (FRA),RAINEA Nicolae (ROU),293,752,ARG,HUN
 1982,18 Jun 1982 - 21:00,Group 6,Benito Villamarin,Seville ,Spain,Brazil,4,1,Scotland, ,47379,1,1,SILES Jesus Paulino (CRC),CHAN Thomson Tam Sun (HKG),PROKOP Adolf (GDR),293,790,BRA,SCO
-1982,19 Jun 1982 - 19:15,Group 1,Riazor,La Coru�A ,Spain,Poland,0,0,Cameroon, ,19000,0,0,PONNET Alexis (BEL),ESCHWEILER Walter (GER),RUBIO VAZQUEZ Mario (MEX),293,834,POL,CMR
+1982,19 Jun 1982 - 19:15,Group 1,Riazor,A Coruña,Spain,Poland,0,0,Cameroon, ,19000,0,0,PONNET Alexis (BEL),ESCHWEILER Walter (GER),RUBIO VAZQUEZ Mario (MEX),293,834,POL,CMR
 1982,19 Jun 1982 - 21:00,Group 3,Nuevo Estadio,Elche ,Spain,Belgium,1,0,El Salvador, ,15000,1,0,MOFFATT Malcolm (NIR),CASTRO Gaston (CHI),JARGUZ Alojzy (POL),293,774,BEL,SLV
 1982,19 Jun 1982 - 21:00,Group 6,La Rosaleda,Malaga ,Spain,Soviet Union,3,0,New Zealand, ,19000,1,0,EL GHOUL Yusef Mohamed (LBY),SORIANO ALADREN Emilio (ESP),WHITE Clive (ENG),293,1054,URS,NZL
 1982,20 Jun 1982 - 17:15,Group 2,El Molinon,Gijon ,Spain,Germany FR,4,1,Chile, ,42000,1,0,GALLER Bruno (SUI),CHRISTOV Vojtech (TCH),BOSKOVIC Tony (AUS),293,813,FRG,CHI
@@ -331,7 +331,7 @@ Year,Datetime,Stage,Stadium,City,Host Country,Home Team Name,Home Team Goals,Awa
 1982,21 Jun 1982 - 17:15,Group 2,Carlos Tartiere,Oviedo ,Spain,Algeria,0,2,Austria, ,22000,0,0,BOSKOVIC Tony (AUS),CHRISTOV Vojtech (TCH),AL DOY Ebrahim (BHR),293,739,ALG,AUT
 1982,21 Jun 1982 - 17:15,Group 4,Jose Zorrilla,Valladolid ,Spain,France,4,1,Kuwait, ,30043,2,0,STUPAR Miroslav (URS),FREDRIKSSON Erik (SWE),MATOVINOVIC Damir (CRO),293,919,FRA,KUW
 1982,21 Jun 1982 - 21:00,Group 5,La Romareda,Zaragoza ,Spain,Honduras,1,1,Northern Ireland, ,15000,0,1,CHAN Thomson Tam Sun (HKG),LABO REVOREDO Enrique (PER),CASARIN Paolo (ITA),293,959,HON,NIR
-1982,22 Jun 1982 - 17:15,Group 1,Riazor,La Coru�A ,Spain,Poland,5,1,Peru, ,25000,0,0,RUBIO VAZQUEZ Mario (MEX),SORIANO ALADREN Emilio (ESP),SANCHEZ ARMINIO Victoriano (ESP),293,1055,POL,PER
+1982,22 Jun 1982 - 17:15,Group 1,Riazor,A Coruña,Spain,Poland,5,1,Peru, ,25000,0,0,RUBIO VAZQUEZ Mario (MEX),SORIANO ALADREN Emilio (ESP),SANCHEZ ARMINIO Victoriano (ESP),293,1055,POL,PER
 1982,22 Jun 1982 - 21:00,Group 3,Nuevo Estadio,Elche ,Spain,Belgium,1,1,Hungary, ,37000,0,1,WHITE Clive (ENG),ESCHWEILER Walter (GER),LACARNE Belaid (ALG),293,779,BEL,HUN
 1982,22 Jun 1982 - 21:00,Group 6,La Rosaleda,Malaga ,Spain,Soviet Union,2,2,Scotland, ,45000,0,1,RAINEA Nicolae (ROU),JARGUZ Alojzy (POL),PONNET Alexis (BEL),293,1071,URS,SCO
 1982,23 Jun 1982 - 17:15,Group 1,Estadio Municipal de Bala�dos,Vigo ,Spain,Italy,1,1,Cameroon, ,20000,0,0,DOTCHEV Bogdan (BUL),SORIANO ALADREN Emilio (ESP),SANCHEZ ARMINIO Victoriano (ESP),293,828,ITA,CMR
