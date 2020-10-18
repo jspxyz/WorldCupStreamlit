@@ -261,13 +261,13 @@ st.map(matches_by_attendance)
 
 # geo slider map of all matches played
 # slider by goal
-st.subheader('World Cup Matches by Goals')
-slide = st.slider('Choose your Number of Goals:', 0, 15, 1)
-matches_by_goals = matches[(matches['GoalsTotal'] > int(slide))][['latitude', 'longitude']]
-st.map(matches_by_goals)
+# st.subheader('World Cup Matches by Goals')
+# slide = st.slider('Choose your Number of Goals:', 0, 15, 1)
+# matches_by_goals = matches[(matches['GoalsTotal'] > int(slide))][['latitude', 'longitude']]
+# st.map(matches_by_goals)
 
 #-----------------------------#
-# excess examle code
+# excess example code
 
 # st.subheader('Price by neighborhood example')
 # st.selectbox('Select an area', ('Brooklyn','Manhattan', 'Queens', 'Bronx', 'Staten Island'))
