@@ -1,5 +1,16 @@
 # file that cleaned our datasets, and added columns
 
+import numpy as np
+import pandas as pd
+import geopandas
+import matplotlib.pyplot as plt
+import streamlit as st
+
+# 0.0 reading datafiles
+matches = pd.read_csv('matches.csv', encoding='latin1')
+players = pd.read_csv('players.csv', encoding='latin1')
+winners = pd.read_csv('winners.csv')
+
 
 # 1.0 Data Cleaning
 
