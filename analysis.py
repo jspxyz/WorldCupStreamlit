@@ -142,22 +142,22 @@ def countryDetails(country):
     matches['Year']= matches['Year'].astype('int')
     matches.set_index('Year')
 
-    # finding all matches played by Brazil
+    # finding all matches played by Countries
     country_matches = matches[(matches['Home Team Name']==country) | (matches['Away Team Name']==country)]
 
     # reset index to year
     country_matches.set_index('Year')
 
-    # finding number of matches played by Brazil by year
+    # finding number of matches played by Countries by year
     country_match = country_matches.groupby('Year').agg(number_of_match=('City','count'))
 
     # finding interesting win conditions
     country_matches['Win conditions'].unique()
 
-    # finding Brazil winning matches
+    # finding Countries winning matches
     Country_winning_matches = country_matches[country_matches['WinningTeam']==country].groupby('Year').agg(wining_match=('WinningTeam','count'))
 
-    # creating Brazil Table of number of matches played and matches won
+    # creating Countries Table of number of matches played and matches won
     country_table_final = country_match.merge(Country_winning_matches , how='left', left_index=True, right_on='Year')
     country_table_final.set_index('Year',inplace=True)
     country_table_final.fillna('0',inplace=True)
