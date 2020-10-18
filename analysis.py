@@ -21,7 +21,7 @@ matches = load_data('/Users/jsp/Desktop/KermadecProjects/WorldCupStreamlit/match
 st.title('World Cup Analysis | October 2020')
 st.subheader('Data from 1930 - 2014')
 st.subheader('by Rosy, Jun, James')
-
+st.image('https://cdni.rt.com/files/2018.07/article/5b4ccd6ddda4c8aa418b45bb.jpg')
 
 # Total of attendance and goals by year
 st.header('Goal Insights')
@@ -213,6 +213,18 @@ if st.checkbox('Show performance raw data'):
     st.subheader('Raw data')
     st.dataframe(selectCountry)
 
+# Brazil, Germany and Italy photos
+col1, col2, col3 = st.beta_columns(3)
+with col1:
+    st.header("Brazil")
+    st.image("https://www.livechennai.com/images/World_Cup/2002_WC.jpg", use_column_width=True)
+with col2:
+    st.header("Germany")
+    st.image("https://cdn.britannica.com/58/179158-050-A1E1419E/players-triumph-West-German-trophy-2014-FIFA-October-1990.jpg", use_column_width=True)
+with col3:
+    st.header("Italy")
+    st.image("https://www.livechennai.com/images/World_Cup/2006_WC.jpg", use_column_width=True)
+
 
 st.header('Recommendations')
 # Chance of host country in Top 3
@@ -251,22 +263,6 @@ if st.checkbox('Show raw data'):
 
 # st.sidebar.header('User Input Features')
 # selected_year = st.sidebar.selectbox('Year', list(reversed(range(1930,2015))))
-
-
-# >>> col1, col2, col3 = st.beta_columns(3)
-# >>>
-# >>> with col1:
-# ...    st.header("A cat")
-# ...    st.image("https://static.streamlit.io/examples/cat.jpg", use_column_width=True)
-# ...
-# >>> with col2:
-# ...    st.header("A dog")
-# ...    st.image("https://static.streamlit.io/examples/dog.jpg", use_column_width=True)
-# ...
-# >>> with col3:
-# ...    st.header("An owl")
-# ...    st.image("https://static.streamlit.io/examples/owl.jpg", use_column_width=True)
-
 
 
 # >>> col1, col2 = st.beta_columns([3, 1])
