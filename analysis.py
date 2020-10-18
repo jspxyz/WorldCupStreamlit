@@ -14,7 +14,7 @@ def load_data(path):
     data = pd.read_csv(path)
     return data
 
-matches = load_data('/Users/jsp/Desktop/KermadecProjects/WorldCupStreamlit/matches_clean.csv')
+matches = load_data('https://raw.githubusercontent.com/jspxyz/WorldCupStreamlit/main/matches_clean.csv')
 
 #-----
 # introsection
@@ -30,7 +30,7 @@ st.subheader('Matches and Goals Data')
 st.write('''After a short increase in goals through 1954, number of average goals scored per match has
 plateaued under 3 goals per match.''')
 
-Average_goal = load_data('/Users/jsp/Desktop/KermadecProjects/WorldCupStreamlit/Average_goal.csv')
+Average_goal = load_data('https://raw.githubusercontent.com/jspxyz/WorldCupStreamlit/main/Average_goal.csv')
 
 year = Average_goal['Year'].tolist()
 number_of_match = Average_goal['number_of_match'].tolist()
@@ -68,7 +68,7 @@ Europe and South America hold the powerhouses of football.''')
 
 
 # Map of top 3
-Top_3 = load_data('/Users/jsp/Desktop/KermadecProjects/WorldCupStreamlit/Top3.csv')
+Top_3 = load_data('https://raw.githubusercontent.com/jspxyz/WorldCupStreamlit/main/Top3.csv')
 
 st.subheader('Where are the World Cup Winners')
 # Plot winner on map
@@ -100,7 +100,7 @@ ax.set_xticks(x)
 ax.set_xticklabels(Countryname)
 ax.legend()
 
-def autolabel(rects):
+def autolabel01(rects):
     """Attach a text label above each bar in *rects*, displaying its height."""
     for rect in rects:
         height = rect.get_height()
@@ -111,8 +111,8 @@ def autolabel(rects):
                     ha='center', va='bottom')
 
 
-autolabel(rects1)
-autolabel(rects2)
+autolabel01(rects1)
+autolabel01(rects2)
 
 fig.tight_layout()
 
@@ -223,7 +223,7 @@ with col3:
 st.header('Recommendations')
 # Chance of host country in Top 3
 
-winners_final = load_data('/Users/jsp/Desktop/KermadecProjects/WorldCupStreamlit/winners_final.csv')
+winners_final = load_data('https://raw.githubusercontent.com/jspxyz/WorldCupStreamlit/main/winners_final.csv')
 st.markdown('Chance that host country in Top 3')
 st.text(winners_final[['Hostwinner', 'Hosttop3']].mean())
 if st.checkbox('Show winner raw data'):
