@@ -149,13 +149,13 @@ def countryDetails(country):
     country_matches.set_index('Year')
 
     # finding number of matches played by Countries by year
-    country_match = country_matches.groupby('Year').agg(number_of_match=('City','count'))
+    country_match = country_matches.groupby('Year').agg(Number_of_match=('City','count'))
 
     # finding interesting win conditions
     country_matches['Win conditions'].unique()
 
     # finding Countries winning matches
-    Country_winning_matches = country_matches[country_matches['WinningTeam']==country].groupby('Year').agg(wining_match=('WinningTeam','count'))
+    Country_winning_matches = country_matches[country_matches['WinningTeam']==country].groupby('Year').agg(Winning_match=('WinningTeam','count'))
 
     # creating Countries Table of number of matches played and matches won
     country_table_final = country_match.merge(Country_winning_matches , how='left', left_index=True, right_on='Year')
@@ -167,6 +167,8 @@ def countryDetails(country):
 
 option = st.selectbox('Select a country for addtional details', ('Argentina', 'Austria', 'Brazil', 'Chile', 'Germany', 'Italy', 'Spain', 'France', 'England', ' Netherlands', 'Czechoslovakia', 'Hungary', 'Sweden', 'Poland', 'USA', 'Croatia', 'Turkey', 'Portugal', 'Uruguay'))
 Country_Details = countryDetails(str(option))
+Country_Details.reset_index(level = 0, inplace=True)
+Country_Details.columns = ['Year', 'Number_of_match', 'Winning_match']
 st.table(Country_Details)
 
 
@@ -174,13 +176,12 @@ st.table(Country_Details)
 selectCountry = Country_Details
 
 # Grouped bar chart for selectCountry
-selectCountry.reset_index(level = 0, inplace=True)
-selectCountry.columns = ['Year', 'number_of_match', 'wining_match']
-selectCountry['wining_match'] = selectCountry['wining_match'].astype(int)
+
+selectCountry['Winning_match'] = selectCountry['Winning_match'].astype(int)
 
 year = selectCountry['Year'].tolist()
-number_of_match = selectCountry['number_of_match'].tolist()
-winning_match = selectCountry['wining_match'].tolist()
+number_of_match = selectCountry['Number_of_match'].tolist()
+winning_match = selectCountry['Winning_match'].tolist()
 x = np.arange(len(year))
 width = 0.35 
 fig, ax = plt.subplots(figsize=(17,7))
