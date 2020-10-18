@@ -22,26 +22,12 @@ st.title('World Cup Analysis | October 2020')
 st.subheader('Data from 1930 - 2014')
 st.subheader('by Rosy, Jun, James')
 
-
-# Total of attendance and goals by year
-st.header('Goal Insights')
-st.write('blah blah blah')
-summatches = matches.groupby('Year').sum()
-attendance = summatches['Attendance']
-goals = summatches['GoalsTotal']
-
-fig = plt.figure(figsize=(3, 3))
-plt.scatter(attendance, goals)
-plt.xlabel('Attendance')
-plt.xlim(0,4000000)
-plt.ylabel('Goals')
-plt.title('Attendance & Goals Correlation')
-fig.tight_layout()
-st.pyplot(fig)
-
-
 # Number of match and Average goal chart
 st.subheader('Matches and Goals Data')
+
+st.write('''After a short increase in goals through 1954, number of average goals scored per match has
+plateaued under 3 goals per match.''')
+
 Average_goal = load_data('/Users/jsp/Desktop/KermadecProjects/WorldCupStreamlit/Average_goal.csv')
 
 year = Average_goal['Year'].tolist()
@@ -49,7 +35,7 @@ number_of_match = Average_goal['number_of_match'].tolist()
 average_goal = Average_goal['average_goal'].tolist()
 x = np.arange(len(year))  
 fig,ax1 = plt.subplots(figsize=(13,5))
-fig.suptitle("Number of match and Average goal by year")
+fig.suptitle("Count of Matches and Average Goals by Year")
 color = 'tab:orange'
 ax1.set_xlabel('Year')
 ax1.set_ylabel('Match', color=color)
@@ -72,9 +58,11 @@ if st.checkbox('Show raw data for Matches and Goals Data above:'):
     st.subheader('Raw data')
     st.write(Average_goal)
 
-
+#--------------------
+#Section about Championships
 st.header('Champion Insights')
-st.write('blahblaskdfjla;jef')
+st.write('''This section is dedicated to the World Cup champions. As seen in the geomap below,
+Europe and South America hold the powerhouses of football.''')
 
 
 # Map of top 3
@@ -86,7 +74,8 @@ slide = st.slider("Winning time", 1, 5)
 winner = Top_3[(Top_3['Winner'] >= int(slide))]
 st.map(winner,1.3)
 
-st.write('bleh blah lbuer ')
+st.write('''Below represents all countries that have been crowned in the Top 3 at least once.
+It's definitely skewed to the 8 countries seen above.''')
 
 # adding group by chart for country WON and Top3
 # Grouped bar chart show how many time each country won and in top 3
@@ -165,18 +154,17 @@ def countryDetails(country):
     return country_table_final
 
 
-option = st.selectbox('Select a country for addtional details', ('Argentina', 'Austria', 'Brazil', 'Chile', 'Germany', 'Italy', 'Spain', 'France', 'England', ' Netherlands', 'Czechoslovakia', 'Hungary', 'Sweden', 'Poland', 'USA', 'Croatia', 'Turkey', 'Portugal', 'Uruguay'))
+option = st.selectbox('Select a country for addtional details', ('Argentina', 'Austria', 'Brazil', 'Chile', 'Croatia', 'Czechoslovakia', 'England', 'France', 'Germany', 'Hungary', 'Italy', ' Netherlands', 'Poland', 'Portugal', 'Spain', 'Sweden', 'Turkey', 'USA', 'Uruguay'))
 Country_Details = countryDetails(str(option))
 Country_Details.reset_index(level = 0, inplace=True)
 Country_Details.columns = ['Year', 'Number_of_match', 'Winning_match']
-st.table(Country_Details)
+Country_Details['Winning_match'] = Country_Details['Winning_match'].astype(int)
 
 
-# Select box
+# Select country from select option
 selectCountry = Country_Details
 
 # Grouped bar chart for selectCountry
-
 selectCountry['Winning_match'] = selectCountry['Winning_match'].astype(int)
 
 year = selectCountry['Year'].tolist()
@@ -209,9 +197,13 @@ autolabel(rects2)
 fig.tight_layout()
 st.pyplot(fig)
 
-if st.checkbox('Show performance raw data'):
-    st.subheader('Raw data')
-    st.dataframe(selectCountry)
+# showing data for above
+st.table(Country_Details)
+
+# commented out below since we already show the raw data above
+# if st.checkbox('Show performance raw data'):
+#     st.subheader('Raw data')
+#     st.dataframe(selectCountry)
 
 
 st.header('Recommendations')
@@ -231,8 +223,39 @@ if st.checkbox('Show raw data'):
     st.subheader('Raw data')
     st.write(Top_3)
 
+st.header('A little extra, if we have time')
+st.subheader('All Matches World Wide')
+st.write('Below is a world map of all the cities that have held matches, with attendance size as a slider bar.')
+# geo slider map of all matches played
+# slider by attendance
+st.subheader('World Cup Matches by Attendance | Worldview')
+slide = st.slider('Choose your attendance size:', 1000, 180000, 15000)
+matches_by_attendance = matches[(matches['Attendance'] > int(slide))][['latitude', 'longitude']]
+st.map(matches_by_attendance)
 
 
+st.subheader('Top 20 Matches All Time')
+# Top 20 matches with highest attendence
+st.write('However, looking into the Top 20 matches, may tell us why Attendance may have some relationship with a country.')
+def game_info(input):
+    team1 = input[0]
+    team2 = input[1]
+    year = input[2]
+    winner = input[3]
+    host = input[4]
+    return f'Host: {host} | {year}: {team1} vs {team2} ({winner})'
+
+matches_trunk = matches[['Year', 'City', 'Attendance', 'Home Team Name', 'Away Team Name', 'WinningTeam', 'Host Country']]
+matches_trunk['Competition'] = matches_trunk[['Home Team Name', 'Away Team Name', 'Year', 'WinningTeam', 'Host Country']].apply(game_info, axis = 1)
+matches_trunk_10 = matches_trunk.sort_values(by='Attendance', ascending= False)
+matches_trunk_10 = matches_trunk_10[['Attendance', 'Competition']].head(20)
+
+# Visualization of Top 10 Matches of Attendance
+fig, ax = plt.subplots(figsize=(12, 10))
+ax.barh(matches_trunk_10['Competition'], matches_trunk_10['Attendance'])
+plt.xlabel('Attendance')
+plt.title('Top 20 matches with highest Attendance')
+st.pyplot(fig)
 
 #------------------
 # additional code not used but left for examples
