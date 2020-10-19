@@ -7,6 +7,8 @@ import matplotlib.pyplot as plt
 import matplotlib as mpl
 import streamlit as st 
 
+# # SETTING PAGE CONFIG TO WIDE MODE
+# st.beta_set_page_config(layout="wide")
 
 # Loading Data
 @st.cache(allow_output_mutation=True)
@@ -119,6 +121,19 @@ fig.tight_layout()
 st.pyplot(fig)
 
 
+# Brazil, Germany and Italy photos
+col1, col2, col3 = st.beta_columns(3)
+with col1:
+    st.header("Brazil")
+    st.image("https://www.livechennai.com/images/World_Cup/2002_WC.jpg", use_column_width=True)
+with col2:
+    st.header("Germany")
+    st.image("https://cdn.britannica.com/58/179158-050-A1E1419E/players-triumph-West-German-trophy-2014-FIFA-October-1990.jpg", use_column_width=True)
+with col3:
+    st.header("Italy")
+    st.image("https://www.livechennai.com/images/World_Cup/2006_WC.jpg", use_column_width=True)
+
+
 
 # New Section--------------------------------
 # How was each country perform in all World Cup?
@@ -207,17 +222,6 @@ st.table(Country_Details)
 #     st.subheader('Raw data')
 #     st.dataframe(selectCountry)
 
-# Brazil, Germany and Italy photos
-col1, col2, col3 = st.beta_columns(3)
-with col1:
-    st.header("Brazil")
-    st.image("https://www.livechennai.com/images/World_Cup/2002_WC.jpg", use_column_width=True)
-with col2:
-    st.header("Germany")
-    st.image("https://cdn.britannica.com/58/179158-050-A1E1419E/players-triumph-West-German-trophy-2014-FIFA-October-1990.jpg", use_column_width=True)
-with col3:
-    st.header("Italy")
-    st.image("https://www.livechennai.com/images/World_Cup/2006_WC.jpg", use_column_width=True)
 
 
 st.header('Recommendations')
